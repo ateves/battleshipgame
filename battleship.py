@@ -36,7 +36,7 @@ ship_col = random_col(board)
 print(ship_row + 1)
 print(ship_col + 1)
 
-'''print statements for column and boards (triggers)
+'''print statements for column and boards
 print(random_col(board))
 print(random_row(board))
 

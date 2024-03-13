@@ -43,8 +43,8 @@ print(random_col(board))
 print(random_row(board))
 
 This is where the program is asking us to input our own rows and columns'''
-guess_row = int(input("Guess Row: "))-1
-guess_col = int(input("Guess Col: "))-1
+guess_row = int(input("Guess Row? (1-5) "))-1
+guess_col = int(input("Guess Column? (1-5) "))-1
 
 not_hit=True
 
